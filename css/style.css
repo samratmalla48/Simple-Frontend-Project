@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(205, 204, 204);
+
+}
+.container{
+  
+    background-color: white;
+    width:940px;
+    margin: auto 40px;
+   
+   
+
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid grey;
+    
+}
+.te{
+    text-align: right;
+    padding: 10px;
+}
+.content{
+    padding: 10px 10px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    gap: 20px;;
+}
+h3{
+    color: blue ;
+}
+.left{
+    width: 70%;
+
+}
+.right{
+    width: 30%;
+    border-left: 1px dotted grey;
+    padding-left: 20px;
+    font-weight: bold;
+    
+
+}
+footer{
+    background-color: rgb(27, 27, 87);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    
+}
+.f1{
+    border-right: 1px solid white;
+    width: 50%;
+    
+   
+}
+.f2{
+    width: 50%;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    
+}
+.na{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-top:15px;
+    ;
+}
+nav a{
+    background-color: rgb(22, 144, 250);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    
+}
+h4{
+    margin-top: 10px;
+}
+p{
+    line-height: 1.2;
+}
+.philo{
+    line-height: 1.6;
+    
+}
